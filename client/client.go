@@ -4,8 +4,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/betabandido/databricks-sdk-go/models"
-	"github.com/golang/glog"
 	"io/ioutil"
 	"net"
 	"net/http"
@@ -13,6 +11,9 @@ import (
 	"os"
 	"strings"
 	"time"
+
+	"github.com/golang/glog"
+	"github.com/phajduk/databricks-sdk-go/models"
 )
 
 type Options struct {

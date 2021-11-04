@@ -5,11 +5,12 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/betabandido/databricks-sdk-go/api/workspace"
-	"github.com/betabandido/databricks-sdk-go/client"
-	"github.com/betabandido/databricks-sdk-go/models"
 	"io/ioutil"
 	"path"
+
+	"github.com/phajduk/databricks-sdk-go/api/workspace"
+	"github.com/phajduk/databricks-sdk-go/client"
+	"github.com/phajduk/databricks-sdk-go/models"
 )
 
 func main() {

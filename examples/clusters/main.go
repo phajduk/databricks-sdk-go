@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/betabandido/databricks-sdk-go/api/clusters"
-	"github.com/betabandido/databricks-sdk-go/client"
-	"github.com/betabandido/databricks-sdk-go/models"
 	"io/ioutil"
+
+	"github.com/phajduk/databricks-sdk-go/api/clusters"
+	"github.com/phajduk/databricks-sdk-go/client"
+	"github.com/phajduk/databricks-sdk-go/models"
 )
 
 const (

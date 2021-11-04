@@ -17,4 +17,6 @@ type NewCluster struct {
 	SparkVersion string `json:"spark_version"`
 
 	NodeTypeId string `json:"node_type_id"`
+
+	CustomTags map[string]string `json:"custom_tags,omitempty"`
 }

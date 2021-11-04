@@ -2,8 +2,9 @@ package workspace
 
 import (
 	"encoding/json"
-	"github.com/betabandido/databricks-sdk-go/client"
-	"github.com/betabandido/databricks-sdk-go/models"
+
+	"github.com/phajduk/databricks-sdk-go/client"
+	"github.com/phajduk/databricks-sdk-go/models"
 )
 
 type Endpoint struct {
